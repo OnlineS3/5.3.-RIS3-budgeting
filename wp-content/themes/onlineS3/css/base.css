@@ -1,0 +1,13 @@
+
+/* 
+    Very basic
+*/
+
+html {
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}

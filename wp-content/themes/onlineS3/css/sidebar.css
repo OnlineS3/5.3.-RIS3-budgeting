@@ -1,0 +1,256 @@
+
+/* 
+    Sidebar stylesheet
+*/
+
+.r-sidebar {
+    position: relative;
+    float: right;
+    width: 260px;
+    margin-top: 3rem;
+}
+
+.r-sidebar {
+    position: relative;
+    float: right;
+    width: 206px;
+    margin-top: 8rem;
+    font-family: "verdana";
+    padding: 1rem 0rem;
+    margin-right: 42px;
+    min-height: 11rem;
+}
+
+.r-sidebar ul {
+    padding: 0;
+    margin: 14px 0 0 8px;
+    margin-left: 0
+}
+
+.r-sidebar ul li {
+    list-style-type: none;
+    margin-bottom: 2px;
+    margin-left: 0;
+    border-bottom: 1px solid #f5f3f3;
+    letter-spacing: 1px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.r-sidebar select option {
+    text-decoration: none;
+    padding: 4px 9px;
+    font-size: 13px !important;
+    display: block;
+    margin-bottom: 2px;
+    margin-left: 0;
+    border-bottom: 1px solid #f5f3f3;
+    letter-spacing: 1px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.r-sidebar ul li button {
+    text-decoration: none;
+    font-size: 13px !important;
+}
+
+.r-sidebar ul li:hover {
+    background-color: #eeeeee;
+    transition: all 0.4s ease-in-out 0s;
+    color: #e74c3c;
+}
+
+.r-sidebar ul li .fa {
+    font-size: 16px;
+    display: inline-block;
+    width: 24px;
+    float: left;
+    top: 10px;
+    position: relative;
+    border-radius: 2px;
+    margin-right: 12px;
+    left: 7px;
+}
+
+.cat-caption {
+    display: block;
+    margin: 10px 5px 9px 0;
+    border-bottom: 1px inset #e4e9f0;
+    border-color: #bbbbbb;
+}
+
+.cat-caption p {
+    color: #585f69;
+    margin: 0 0 -7px 0;
+    padding: 0 0 0px 0;
+    display: inline-block;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+.r-sidebar#categories-bar {
+    margin-top: 12rem;
+}
+
+.r-sidebar#categories-bar ul li .fa {
+    color: #616060;
+}
+
+.r-sidebar#categories-bar img#export-img {
+    background-color: #616060
+}
+
+.r-sidebar#categories-bar img {
+    margin: 3px 14px -3px 5px;
+}
+
+.r-sidebar#menu-bar ul li .fa {
+    color: #0a1b27;
+}
+
+.r-sidebar#menu-bar ul li .button {
+    background-color: #f0f0f0;
+}
+
+.r-sidebar#menu-bar .cat-caption p {
+    border-bottom: 2px solid #93b744;
+}
+
+#export-report {
+    cursor: pointer
+}
+
+.r-sidebar#prio-bar ul li:hover {
+    color: #ffffff !important;
+    background: none repeat scroll 0 0 #E74C3C !important;
+    transition: all 0.4s ease-in-out 0s;
+    box-shadow: 0 0 5px #DDDDDD;
+}
+
+.r-sidebar#prio-bar ul li:hover a {
+    color: #ffffff !important;
+}
+
+.r-sidebar#prio-bar ul li.active a {
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #e74c3c;
+    background: none repeat scroll 0 0 #E74C3C !important;
+    box-shadow: 0 0 5px #DDDDDD;
+}
+
+.r-sidebar#prio-bar label {
+    color: #49496e;
+    font-weight: bold;
+    padding: 3px 6px;
+    display: block;
+    width: 92%;
+    letter-spacing: 2px;
+    font-size: 11px;
+    cursor: pointer;
+    color: #47abfd;
+    font-style: italic;
+}
+
+.r-sidebar#prio-bar label:not(:last-of-type) {
+    border-bottom: 1px dashed #b0b6bc;
+}
+
+.r-sidebar#prio-bar label:hover {
+    background: none repeat scroll 0 0 #EFEDED;
+    transition: all 0.4s ease-in-out 0s;
+    box-shadow: 0 0 5px #EFEDED;
+    border-color: white
+}
+
+.r-sidebar#prio-bar label.active {
+    color: #2e86ce;
+    transition: all 0.4s ease-in-out 0s;
+    box-shadow: 0 0 5px #DDDDDD;
+    background: none repeat scroll 0 0 #EFEDED;
+}
+
+#sidebar button.alt {
+    border: solid 1px red;
+    padding: 5px 8px;
+    background: linear-gradient(#ff6b6b,#ec2929);
+}
+
+#sidebar button,
+#sidebar .a-button {
+    color: #fff;
+    background: linear-gradient(#2197f9,#007ce2);
+    line-height: 1.4;
+    font-size: 12px;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: solid 1px #007ce2;
+    padding: 3px 8px 6px 8px;
+    letter-spacing: 0;
+    cursor: pointer;
+    margin: 10px 14px 0 0;
+    width: 11rem;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    clear: both;
+    font-family: "open sans";
+}
+
+#sidebar button img,
+#sidebar .a-button img {
+    position: relative;
+    top: 3px;
+    left: 8px;
+}
+
+#sidebar button .fa,
+#sidebar .a-button .fa {
+    position: relative;
+    font-size: 14px;
+    left: 8px;
+    color: white;
+}
+
+#sidebar button.alt {
+    border-color: #969595;
+    color: #fff;
+    background: #7da4b3;
+    padding: 4px 18px 5px 10px;
+    font-size: 13px;
+    font-family: tahoma;
+    background: linear-gradient(#b0b0b0,#7b7b7b);
+}
+
+#sidebar button.guide {
+    border: solid 1px red;
+    padding: 5px 8px;
+    background: linear-gradient(#ff6b6b,#ec2929);
+}
+
+#sidebar {
+    position: relative;
+    float: right;
+    width: 210px;
+    padding: 1rem 2px 1rem 29px;
+    margin-top: 6rem;
+    text-align: center;
+    margin-right: 30px;
+}
+
+#prio-bar img {
+    margin-bottom: -1px;
+    margin-left: 5px;
+    background: #3875d7;
+}
+
+#prio-bar .fa {
+    position: relative;
+    top: -21px;
+    right: 20px;
+    float: right;
+    font-size: 14px;
+    color: #87b5dc;
+}
+    

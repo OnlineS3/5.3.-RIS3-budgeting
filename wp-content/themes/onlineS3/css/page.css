@@ -1,0 +1,73 @@
+
+.online-page h2 {
+    margin: 0;
+    color: #DE1515;
+    padding: 1rem 0 0rem 1rem
+}
+
+.online-page a,
+.online-page p,
+.online-page ul li,
+.online-page ol li {
+    font-family: verdana;
+    font-size: 13px;
+}
+
+.online-page p {
+    line-height: 1.8;
+    text-align: justify;
+    padding: 3px 1rem
+}
+
+.online-page ul {
+    margin-left: 20px;
+}
+
+.online-page ul li {
+    color: #000
+}
+
+#access-btn {
+    margin-top: 3rem
+}
+
+#access-btn button {
+    font-weight: 600;
+    padding-top: 2px;
+    width: 14rem;
+}
+
+#access-btn img {
+    position: relative;
+    top: 5px;
+    left: 4px;
+}
+
+#download-pdf-icon {
+    font-size: 15px;
+    left: 6px;
+    position: relative;
+    width: 2rem;
+}
+
+#sidebar button {
+    color: #fff;
+    background: linear-gradient(#2197f9,#007ce2);
+    line-height: 1.4;
+    font-size: 12px;
+    vertical-align: middle;
+    border-radius: 3px;
+    border: solid 1px #007ce2;
+    padding: 3px 8px 6px 8px;
+    letter-spacing: 0;
+    cursor: pointer;
+    margin: 10px 14px 0 0;
+    width: 11rem;
+    font-weight: 600;
+}
+
+#sidebar button.alt {
+    border: solid 1px red;
+    padding: 5px 8px;
+    background: linear-gradient(#ff6b6b,#ec2929);
+}

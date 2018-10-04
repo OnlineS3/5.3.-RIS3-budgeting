@@ -1,0 +1,158 @@
+
+.budget-form {
+    display: none
+}
+
+.budget-form div.elem {
+    display: block;
+    margin: 10px 0;
+}
+
+.budget-form label {
+    display: inline-block;
+    width: 13rem;
+    font-family: verdana;
+    color: #1c3356;
+    font-size: 14px;
+}
+
+.budget-form input {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 3px 5px;
+    width: 26rem;
+    height: auto;
+    border: 1px solid #aaa;
+    background-color: #efefef;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+    background-image: -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background-image: -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background-image: -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background-image: linear-gradient(#eeeeee 1%, #ffffff 15%);
+}
+
+.budget-form .chosen-container-single {
+    width: 41rem !important;
+    margin: 0
+}
+
+.budget-form .popup-title {
+    color: rgba(255, 33, 33, 0.9);
+    margin: 0;
+    letter-spacing: 3px;
+    font-weight: normal;
+    padding: 0 4px 0px !important;
+    border-bottom: 1px dashed #9c9c9c;
+    width: 12rem;
+    margin-bottom: 37px!important;
+    font-size: 20px;
+    text-shadow: 1px 1px #c1bbbb;
+    padding-left: 0 !important;
+    line-height: 2;
+}
+
+.budget-form th {
+    width: 6rem;
+    font-size: 13px;
+    font-family: verdana;
+    color: #403f3f;
+    text-align: center
+}
+
+.budget-form tr td input {
+    width: 7rem;
+    padding: 6px 6px;
+    margin: 0 2px;
+    text-align: right;
+}
+
+.budget-form tr td.header {
+    font-family: verdana;
+    font-style: italic;
+    color: #353535;
+    font-size: 13px;
+    width: 8rem;
+}
+
+.budget-form .tbl-label {
+    font-weight: bold;
+    margin-top: 21px;
+    color: #5f5d5d;
+    letter-spacing: 1px;
+    border-bottom: 1px dashed #8a8989;
+    width: 137px;
+}
+
+
+#user-budgets .popup-content button {
+    float: right;
+    color: #5B8ECB;
+    font-weight: bold;
+    font-size: 12px;
+    background: #F0F0F0;
+    margin: 0 5px;
+}
+
+.budget-form .popup-content {
+    position: absolute;
+    margin: auto;
+    padding: 38px 49px 9px 49px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+    opacity: 1;
+    text-align: left;
+    overflow: auto;
+}
+
+.budget-form input:disabled {
+    border: 1px solid #d0d0d0;
+    background-color: #f5f5f5;
+    color: #666666;
+    background-image: none;
+}
+
+.budget-form table .header p {
+    width: 116px;
+    font-family: verdana;
+    font-style: italic;
+    color: #353535;
+    font-size: 13px;
+}
+    
+.budget-form table {
+    display: block;
+    max-width: 900px;
+    overflow: auto;
+}
+
+.budget-form table td input:focus {
+    box-shadow: 2px 2px 1px #bec1c5;
+    border: 1px solid rgba(135, 146, 162, 0.46);
+}
+
+.budget-form .popup-content .btn-area {
+    margin-top: 2px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .budget-form .popup-content {
+        height: 530px;
+        width: 800px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+    .budget-form .popup-content {
+        height: 600px;
+        width: 850px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .budget-form .popup-content {
+        height: 730px;
+        width: 850px;
+    }
+}

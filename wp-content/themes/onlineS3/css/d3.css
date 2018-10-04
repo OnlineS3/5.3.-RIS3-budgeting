@@ -1,0 +1,49 @@
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.y.axis path {
+    display: none;
+}
+
+.bar {
+     fill: #bbb;
+     shape-rendering: crispEdges;
+ }
+
+.line {
+    fill: none;
+    stroke-width: 1.5px;
+}
+
+/* White background for png images */
+.graph-svg-component {
+    background-color: #fff !important
+}
+
+/* Customize d3 tooltip */
+.d3-tip {
+    line-height: 1;
+    font-weight: normal;
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    border-radius: 0px;
+    padding: 6px;
+    font-size: 11px;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+.graph-container .legend {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 60%;
+}

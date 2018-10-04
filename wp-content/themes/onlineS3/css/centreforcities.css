@@ -1,0 +1,138 @@
+
+.scroll-wrapper.tbl-dt {
+    margin: 0 20px 25px 15px;
+    max-width: 800px;
+    max-height: 800px;
+    padding: 5px 24px 39px 5px;;
+}
+
+.tbl-dt {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+
+.scroll-wrapper>.scroll-content {
+    border: none !important;
+    box-sizing: content-box !important;
+    height: auto;
+    left: 0;
+    margin: 0;
+    max-height: none !important;
+    max-width: none !important;
+    padding: 0 20px 0 0;
+    position: relative !important;
+    top: 0;
+}
+
+.scroll-wrapper>.scroll-element, 
+.scroll-wrapper>.scroll-element div {
+    border: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.scroll-element, .scroll-element div {
+    box-sizing: content-box;
+}
+
+.scroll-wrapper>.scroll-element div {
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.scroll-wrapper>.scroll-element .scroll-bar {
+    background-color: #5A7693;
+    cursor: pointer;
+    -webkit-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    background-color: #007ce2;
+}
+
+.scroll-wrapper>.scroll-element.scroll-x {
+    background: none;
+    height: 15px;
+    bottom: 0;
+    left: 0;
+    min-width: 99%;
+    width: 99%;
+}
+
+.scroll-wrapper>.scroll-element.scroll-x .scroll-element_track {
+    background: #D0D8E0;
+    margin-top: 4.4px;
+    height: 6px;
+}
+
+.scroll-wrapper>.scroll-element.scroll-x .scroll-bar {
+    width: 21px !important;
+    height: 12px;
+}
+
+.scroll-wrapper>.scroll-element.scroll-y {
+    top: 0;
+    right: 0;
+    background: none;
+    width: 15px;
+    height: 100%;
+    min-height: 98%;
+}
+
+.scroll-wrapper > .scroll-element.scroll-y .scroll-element_track {
+    background: #D0D8E0;
+    margin-left: 4.4px;
+    width: 6px;
+}
+
+.scroll-wrapper>.scroll-element.scroll-y .scroll-bar {
+    height: 21px !important;
+    width: 12px;
+}
+
+.scroll-wrapper>.scroll-element.scroll-y .scroll-bar {
+    left: 0;
+    min-height: 10px;
+}
+
+.scroll-wrapper>.scroll-element.scroll-y .scroll-element_track, 
+.scroll-wrapper>.scroll-element.scroll-y .scroll-element_size {
+    top: 0;
+}
+
+.scroll-wrapper>.scroll-content.scroll-scrolly_visible {
+    width: 100%;
+}
+
+.scroll-wrapper.tbl-dt > .scroll-content {
+    padding: 0;
+}
+
+.scrollbar-rail > .scroll-element .scroll-element_outer:hover .scroll-bar {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.scroll-wrapper > .scroll-element.scroll-x .scroll-element_track {
+    background: #C9C6C6;
+    margin-top: 6.4px;
+    height: 1px;
+}
+
+.scroll-wrapper > .scroll-element.scroll-y .scroll-element_track {
+    background: #C9C6C6;
+    margin-left: 6.4px;
+    width: 1px;
+}
+
+.scroll-wrapper > .scroll-element.scroll-y .scroll-element_outer {
+    padding-right: 6px
+}

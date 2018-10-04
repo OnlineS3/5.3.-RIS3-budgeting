@@ -1,0 +1,16 @@
+
+.beta {
+    cursor: default !important;
+}
+
+.beta:hover {
+    opacity: 1 !important;
+}   
+
+#top-menu .beta:hover {
+    background: none !important
+}
+
+#site-footer .beta:hover {
+    color: white !important
+}

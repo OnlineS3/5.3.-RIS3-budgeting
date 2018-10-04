@@ -1,0 +1,268 @@
+
+/* 
+    Table stylesheet
+*/
+
+.tbl-div {
+    max-width: 820px;
+    max-height: 1400px;
+}
+
+table.tbl-dt {
+    overflow: scroll !important;
+    clear: both;
+    white-space: nowrap;
+    border: none;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    background-color: #fff;
+    max-height: 240px;
+}
+
+.tbl-dt tr {
+    max-width: 690px;
+    display: table-row;
+}
+
+.tbl-dt td, .tbl-dt th {
+    display: inline-block;
+    text-align: center;
+    padding: 3px 7px !important
+}
+
+.tbl-dt td.small,
+.tbl-dt th.small {
+    width: 5rem;
+}
+
+.tbl-dt td.medium,
+.tbl-dt th.medium {
+    width: 9rem;
+}
+
+.tbl-dt td.large,
+.tbl-dt th.large {
+    width: 14rem;
+}
+
+.tbl-dt td.left input,
+.tbl-dt th.left input {
+    text-align: left
+}
+
+.tbl-dt td.center input,
+.tbl-dt th.center input {
+    text-align: center;
+    padding: 0;
+    border: 0;
+}
+
+.tbl-dt td.right input,
+.tbl-dt th.right input {
+    text-align: right
+}
+
+.tbl-dt td input, .tbl-dt th input, 
+.tbl-dt td span, .tbl-dt th span {
+    padding: 7px 7px;
+    color: #686868;
+    background: none;
+    border: none;
+}
+
+/* primary table style */
+.tbl-primary td,
+.tbl-primary th {
+    border: 1px solid #ddd;
+    width: 9rem;
+    margin-left: -3px;
+}
+
+.tbl-primary tr:not(:last-child) td {
+    margin-bottom: -3px;
+}
+
+.tbl-primary th {
+    height: 2.7rem;
+    font-weight: 600;
+    padding-top: 12px !important;
+    background-image: url('http://localhost/region_profile/images/sort_both_bc.png'), 
+                -webkit-repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px);
+    background-image: url('http://localhost/region_profile/images/sort_both_bc.png'), 
+                -moz-repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px);
+    background-image: url('http://localhost/region_profile/images/sort_both_bc.png'), 
+                repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px)
+}
+
+.tbl-primary td input,
+.tbl-primary th input {
+    font-style: normal;
+    font-size: 12px;
+    color: #454545;
+    text-align: right;
+}
+
+.tbl-primary th input {
+    font-weight: 600;
+}
+
+/* secondary table style */
+.tbl-secondary tr {
+    max-width: 690px;
+    margin-bottom: -2px;
+    display: table-row;
+}
+
+.tbl-secondary td,
+.tbl-secondary th {
+    margin-left: -1px;
+    font-size: 12px;
+    border: 1px solid #d1d1d1;
+}
+
+.tbl-secondary td {
+    border-top: none;
+}
+
+.tbl-secondary th {
+    font-weight: 600;
+    height: 45px;
+    padding-top: 8px !important
+}
+
+.tbl-secondary tr.odd td {
+    margin-bottom: 0 !important
+}
+
+.tbl-secondary tr.even td {
+    margin-bottom: -4px !important;
+}
+
+.tbl-secondary tr.even {
+    background-color: #f1f1f1;
+}
+
+.tbl-third td,
+.tbl-third th {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 5px
+}
+
+.tbl-third th {
+    height: 2rem;
+    font-weight: 600;
+    padding-top: 12px !important;
+    font-size: 13px
+}
+
+.tbl-third.tablesorter th {
+    background-image: url('http://localhost/region_profile/images/sort.gif');
+}
+
+.tbl-third td,
+.tbl-third th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* colored table style */
+.tbl-colored td,
+.tbl-colored th {
+    width: 3.7rem !important;
+    padding: 3px !important;
+    margin-bottom: -5px;
+    margin-left: -5px;
+    border: 2px solid rgba(123, 121, 121, 0.26)
+}
+
+.tbl-colored th {
+    font-weight: 600;
+    height: 3.4rem;
+    padding-top: .85rem;
+    font-size: 12px;
+    background: -webkit-repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px);
+    background: -moz-repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px);
+    background: repeating-linear-gradient(45deg, #fff, #f3f3f3 3px, #fff 6px);
+}
+
+.tbl-colored td {
+    height: 2.7rem;
+    font-size: 11px;
+}
+
+.tbl-colored td input {
+    font-weight: 600 !important;
+}
+
+.tbl-colored td:not(.row_head) input {
+    color: #fff !important;
+}
+
+.tbl-colored td input,
+.tbl-colored th input {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tbl-colored th input,
+.tbl-colored .row_head input {
+    color: #454545;
+    font-size: 12px;
+}
+
+.tbl-colored .row_head input {
+    text-align: left
+}
+
+.tbl-colored .row_head {
+    width: 5rem !important;
+}
+
+.tbl-colored .color-1 {
+    background-color: #42495a !important
+}
+
+.tbl-colored .color-2 {
+    background-color: #fc4a1a !important
+}
+
+.tbl-colored .color-3 {
+    background-color: #f9cf00 !important
+}
+
+.tbl-colored .color-4 {
+    background-color: #639982 !important
+}
+
+.tbl-colored .color-5 {
+    background-color: #993d43 !important;
+}
+
+
+table.tbl-dt {
+    overflow: hidden !important
+}
+
+.tbl-caption {
+    font-weight: bold;
+    margin: 10px 0 0;
+    color: #303030;
+    font-size: 14px;
+    font-family: Verdana, sans;
+    padding: 0;
+}
+
+.tbl-subcaption {
+    margin: 0;
+    color: #565656;
+    line-height: 2;
+    padding: 0;
+    font-size: 12px;
+    margin-bottom: 9px;
+}

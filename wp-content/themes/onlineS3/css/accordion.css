@@ -1,0 +1,294 @@
+/*Init*/
+.toggle-item {
+    display: none;
+}
+
+.accordion-section {
+    position: relative;
+}
+
+.toggle-item + .fa + label + hr + .accordion-section,
+.toggle-item + label + .accordion-section {
+    height: 0;
+    overflow:hidden;
+}
+
+#filters.toggle-item:checked + .fa  + label + hr + .accordion-section {
+    -webkit-animation: filter-slide-up .7s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: filter-slide-up .7s ease forwards;
+    /* Fx 5+ */
+    -o-animation: filter-slide-up .7s ease forwards;
+    /* Opera 12+ */
+    animation: filter-slide-up .7s ease forwards;
+    /* IE 10+ */
+}
+
+#filters.toggle-item + .fa  + label + hr + .accordion-section {
+    -webkit-animation: filter-slide-down .7s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: filter-slide-down .7s ease backwards;
+    /* Fx 5+ */
+    -o-animation: filter-slide-down .7s ease backwards;
+    /* Opera 12+ */
+    animation: filter-slide-down .7s ease backwards;
+    /* IE 10+ */
+}
+
+#show-col.toggle-item:checked + label + .accordion-section {
+    -webkit-animation: show-slide-up .7s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: show-slide-up .7s ease forwards;
+    /* Fx 5+ */
+    -o-animation: show-slide-up .7s ease forwards;
+    /* Opera 12+ */
+    animation: show-slide-up .7s ease forwards;
+    /* IE 10+ */
+}
+
+#show-col.toggle-item + label + .accordion-section {
+    -webkit-animation: show-slide-down .7s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: show-slide-down .7s ease backwards;
+    /* Fx 5+ */
+    -o-animation: show-slide-down .7s ease backwards;
+    /* Opera 12+ */
+    animation: show-slide-down .7s ease backwards;
+    /* IE 10+ */
+}
+
+
+#group-col.toggle-item:checked + .fa + label + hr + .accordion-section {
+    -webkit-animation: group-slide-up .7s ease forwards;
+    /* Safari 4+ */
+    -moz-animation: group-slide-up .7s ease forwards;
+    /* Fx 5+ */
+    -o-animation: group-slide-up .7s ease forwards;
+    /* Opera 12+ */
+    animation: group-slide-up .7s ease forwards;
+    /* IE 10+ */
+}
+
+#group-col.toggle-item + .fa + label + hr + .accordion-section {
+    -webkit-animation: group-slide-down .7s ease backwards;
+    /* Safari 4+ */
+    -moz-animation: group-slide-down .7s ease backwards;
+    /* Fx 5+ */
+    -o-animation: group-slide-down .7s ease backwards;
+    /* Opera 12+ */
+    animation: group-slide-down .7s ease backwards;
+    /* IE 10+ */
+}
+
+.toggle-item:checked + .fa + label + hr + .accordion-section textarea {
+	display: block
+}
+
+/*Animation functionality*/
+@-webkit-keyframes filter-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 155px;
+    }
+}
+@-moz-keyframes filter-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 155px;
+    }
+}
+@-o-keyframes filter-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 155px;
+    }
+}
+@keyframes filter-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 155px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes filter-slide-down {
+    0% {
+        height: 155px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-moz-keyframes filter-slide-down {
+    0% {
+        height: 155px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes filter-slide-down {
+    0% {
+        height: 190px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes filter-slide-down {
+    0% {
+        height: 190px;
+        
+    }
+    100% {
+        height: 0;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes show-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 50px;
+    }
+}
+@-moz-keyframes show-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 50px;
+    }
+}
+@-o-keyframes show-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 50px;
+    }
+}
+@keyframes show-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 36px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes show-slide-down {
+    0% {
+        height: 50px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-moz-keyframes show-slide-down {
+    0% {
+        height: 50px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes show-slide-down {
+    0% {
+        height: 50px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes show-slide-down {
+    0% {
+        height: 50px;
+        
+    }
+    100% {
+        height: 0;
+    }
+}
+
+
+/*Animation functionality*/
+@-webkit-keyframes group-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 60px;
+    }
+}
+@-moz-keyframes group-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 60px;
+    }
+}
+@-o-keyframes group-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 60px;
+    }
+}
+@keyframes group-slide-up {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 60px;
+    }
+}
+
+/*Animation functionality*/
+@-webkit-keyframes group-slide-down {
+    0% {
+        height: 60px;
+    }
+    100% {
+        height: 0;
+        
+    }
+}
+@-moz-keyframes group-slide-down {
+    0% {
+        height: 60px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@-o-keyframes group-slide-down {
+    0% {
+        height: 60px;
+    }
+    100% {
+        height: 0;
+    }
+}
+@keyframes group-slide-down {
+    0% {
+        height: 60px;
+        
+    }
+    100% {
+        height: 0;
+    }
+}

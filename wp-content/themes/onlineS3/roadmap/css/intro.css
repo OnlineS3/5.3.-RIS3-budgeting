@@ -1,0 +1,84 @@
+
+.text-container {
+    margin: 10px auto;
+    margin-left: 10px;
+}
+
+.text-container p {
+    font-family: verdana;
+    font-size: 14px;
+    color: #656565;
+    letter-spacing: 0px;
+    font-family: "verdana";
+    padding-bottom: 0;
+    margin-left: 4px;
+    color: #474747;
+    margin-bottom: 7px;
+}
+
+.text-container ol {
+    list-style-type: number;
+    margin-left: 11px;
+    margin-top: 0;
+}
+
+.text-container li {
+    
+    font-family: "open sans";
+    font-size: 14px;
+    color: #474747;
+    letter-spacing: 0px;
+    text-indent: 5px;
+    line-height: 1.7;
+    text-align: justify;
+    /*! padding: 3px 1rem; */
+    letter-spacing: 1px;
+}
+
+.text-container button {
+    color: #5abd5a;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "open sans";
+    letter-spacing: 3px;
+    padding: 9px 13px 7px 13px;
+    border-radius: 8px;
+    margin: 13px -14px 6px 28px;
+    color: #f5ac17;
+    font-weight: bold;
+    background: #f2f2f2 !important;
+    border-color: white;
+    cursor: pointer;
+    border-right: none;
+}
+
+.run-btn {
+    color: #f83333 !important;
+}
+
+.run-btn .fa {
+    font-size: 11px;
+    position: relative;
+    top: -1px;
+}
+
+button:hover {
+    opacity: .8
+}
+
+button:disabled {
+    cursor: default;
+    opacity: .6;
+}
+
+button:hover:disabled {
+    opacity: .6;
+}
+
+#use-roadmap {
+    color: #1098fc;
+}
+
+button.active {
+    text-decoration: underline;
+}

@@ -1,0 +1,66 @@
+
+/* 
+    Social button stylesheet
+*/
+
+.social-title {
+    margin: 0 0 1em;
+    display: inline-block;
+    line-height: 1.2;
+    font-size: 9pt;
+    font-weight: 700;
+    color: #777;
+}
+
+.social-title:before {
+    content: "";
+    display: block;
+    width: 100%;
+    min-width: 30px;
+    border-top: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.social-btns {
+    display: block
+}
+
+/* twitter && google plus buttons */
+.twitter-btn,
+.gplus-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    display: inline-block
+}
+
+.twitter-btn {
+    background-color: #00acee;
+}
+
+.gplus-btn {
+    background-color: #dd4b39;
+}
+
+.twitter-btn:before,
+.gplus-btn:before {
+    content: '\f099';
+    display: block;
+    color: #fff;
+    font-family: FontAwesome;
+    position: relative;
+    left: 7px;
+}
+
+.twitter-btn:before {
+    content: '\f099';
+    font-size: 17px;
+    bottom: -5px;
+}
+
+.gplus-btn:before {
+    content: '\f0d5';
+    font-size: 17px;
+    bottom: -5px;
+}

@@ -1,0 +1,224 @@
+
+.info-container {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 244px;
+    border: 1px dashed #7E7E7E;
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.info-container hr {
+    border-color: #848484;
+    position: absolute;
+    bottom: 4px;
+    width: 90%;
+    margin: 0 auto;
+    left: 5%;
+    border-top: 2px grey solid;
+}
+
+.road .step-image {
+    background: white;
+    margin-top: 15%;
+    margin-left: 37%;
+}
+
+.road .step-title {
+    font-family: 'verdana';
+    font-size: 16px;
+    font-weight: bold;
+    color: #3c3b3b;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 10px 16px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.road .step-text {
+    font-family: 'verdana';
+    font-size: 14px;
+    color: #292929;
+    text-align: center;
+    margin: 12px 14px;
+    line-height: 1.7;
+}
+
+.road .app-label {
+    font-family: 'verdana';
+    font-size: 13px;
+    font-weight: bold;
+    color: #383838;
+    text-align: center;
+    margin: 23px 0 0;
+    letter-spacing: 1px;
+}
+
+.road .app-text {
+    font-family: 'verdana';
+    font-size: 13px;
+    color: #3e3d3d;
+    text-align: center;
+    line-height: 1.6;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    transition: .2s
+}
+
+.road .app-info {
+    transition: 2s
+}
+
+.road .step-info {
+    height: 57%;
+    position: relative;
+    font-family: 'open sans';
+}
+
+.road .app-url {
+    text-align: center;
+    margin-top: 22px;
+    display: block;
+    color: #4e85e1;
+    font-size: 13px;
+    font-family: verdana;
+}
+
+.examples .example-info {
+    height: 63%;
+    position: relative;
+}
+
+.examples .example-image {
+    text-align: center;
+    /*! margin: 0 auto; */
+    position: relative;
+    margin-left: 39%;
+    margin-top: 35px;
+}
+
+.examples .example-title {
+    /* color: #3a6782; */
+    font-family: 'open sans';
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    margin: 10px;
+    /*! color: #5c9ec5; */
+    /*! color: #e86666; */
+}
+
+.examples .example-text {
+    color: #333333;
+    /*! font-family: 'verdana'; */
+    /*! font-size: 14px; */
+    text-align: center;
+    /*! padding: 0px 28px; */
+    /*! margin: 0 !important; */
+    line-height: 1.5;
+    text-align: center;
+    margin: 12px 4px;
+    line-height: 1.9;
+    /*! color: #292929; */
+}
+
+.examples .example-text a {
+    /* color: #327cc5 !important; */
+    text-decoration: none;
+    /* color: #506a8a !important; */
+    /* text-decoration: underline; */
+    /*! background: #f3f3f3; */
+    border: 6px;
+    padding: 2px 6px;
+    color: #7d7d7d;
+    border-radius: 7px;
+    /*! font-style: italic; */
+    text-decoration: underline;
+}
+
+.examples .example-text a:hover {
+    opacity: .8
+}
+
+.examples .see-examples {
+    font-family: 'verdana';
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 18px -12px 4px;
+    color: #606060;
+}
+
+.examples .road-example {
+    color: #007ce2;
+    font-size: 14px;
+    text-decoration: navajowhite;
+    font-family: 'open sans';
+    line-height: 2;
+    /*! color: #989751 !important; */
+    text-decoration: underline;
+    letter-spacing: 0px;
+}
+
+.examples .road-example:hover {
+    opacity: .8
+}
+
+.examples-list ul {
+    list-style-type: none
+}
+
+.examples-list ul li::before {
+    content: '-';
+    position: absolute;
+    left: -11px;
+    color: #7b7b7b;
+    font-size: 13px;
+    top: 2px;
+}
+
+.examples ul li.active {
+    /*! text-indent: 4px; */
+    text-indent: 19px !important;
+}
+
+.examples ul li.active .road-example {
+    color: #1a1a1b !important;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.examples ul {
+    list-style-type: none;
+    margin-left: -13px;
+    line-height: 2;
+    width: 244px;
+}
+
+.examples ul li {
+    text-indent: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.examples ul.dashed > li::before {
+    content: "-";
+    text-indent: -6px;
+    right: 5px;
+    position: relative;
+}
+
+.link-active {
+    background: #e6e6e6 !important;
+    /*! color: #f09 !important; */
+    /*! font-weight: bold; */
+    /*! border: 1px solid #b1b1b1 !important; */
+    border-radius: 6px;
+    color: #ff6c00 !important;
+}

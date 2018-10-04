@@ -1,0 +1,190 @@
+
+.site {
+    margin: 27px 0 0 0;
+    background-color: #fff;
+}
+
+.site-branding {
+    display: none
+}
+
+#page {
+    height: auto;
+}
+
+.interlogic {
+    position: relative;
+    float: left;
+    width: 820px;
+    margin-bottom: 53px;
+    min-height: 34rem;
+    margin: 0 0 30px 30px;
+}
+
+body {
+    background: #fff;
+}
+
+.sidebar .widget {
+    margin-top: 52px;
+    height: 382px;
+}
+
+.sidebar {
+    display: block;
+    float: right;
+    position: relative;
+    width: 260px;
+}
+
+.entry-title {
+    display: none
+}
+
+div#footer, 
+td#footer {
+    background-color: #cccccc !important;
+    color: #fff
+}
+
+div#footer a,
+td#footer a {
+    color: #fff !important
+}
+
+td#footer::before {
+    content: "";
+    position: absolute;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#000),to(transparent));
+    background-image: -webkit-linear-gradient(#000,transparent);
+    background-image: -moz-linear-gradient(#000,transparent);
+    background-image: -o-linear-gradient(#000,transparent);
+    background-image: linear-gradient(#fbfbfb,#dadada);
+    top: -3px;
+    width: 68%;
+    height: 12px;
+    bottom: -106px;
+    left: 304px;
+}
+
+.edit-link {
+    display: none
+}
+
+.online {
+    color: #fff;
+    font-size: 22px;
+    z-index: 300000000;
+    vertical-align: bottom;
+    padding-bottom: 0;
+    margin-left: 135px;
+    position: absolute;
+    margin-top: -40px;
+}
+
+.title {
+    color: #fff;
+    font-size: 20px;
+    z-index: 3000;
+    position: relative;
+    float: right;
+    margin-right: 45px;
+    margin-top: 10px;
+}
+
+.site-header-main {
+    display: block
+}
+
+.site-info {
+    margin: 1rem auto !important
+}
+
+.site-info span,
+.site-info a {
+    color: #fff !important;
+    font-size: 13px
+}
+
+.site-footer .site-title::after {
+    content: "\007c";
+}
+
+.footer-logo {
+    float: right; 
+    text-align: right; 
+    position: absolute; 
+    right: 20px; 
+    color: rgb(255, 255, 255); 
+    font-size: 13px; 
+    bottom: 0.6rem;
+}
+
+.footer-logo span {
+    position: relative;
+    right: 30px;
+}
+
+.footer-logo img {
+    position: relative;
+    bottom: 4px;
+}
+
+.site {
+    margin: 27px 0 0 0 
+}
+
+body {
+    line-height: 2
+}
+
+#page {
+    background: #e5e8e8;
+    background-image: url(../../../../images/bc_part.png), url(../../../../images/bc_part.png);
+    background-position: right top, left top;
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+}
+
+h3 .report-link a {
+    font-family: "Calibri";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    color: #bf1131;
+    letter-spacing: 1px;
+}
+
+h3 .report-link {
+    position: relative;
+    float: right;
+    margin-right: 13px;
+    margin-top: -6px;
+}
+
+h3 .report-link hr {
+    height: 0;
+    border-top: 1px solid #bf1131;
+    margin-top: 3px;
+}
+
+.site {
+    background: #e5e8e8;
+    background-image: url(../../../../images/bc_part.png), url(../../../../images/bc_part.png);
+    background-position: right top, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.skip-link {
+    display: none
+}
+
+.site-content {
+    min-height: 36rem;
+    padding: 0;
+    width: 1200px;
+}
+
+#colophon {
+    display: none
+}

@@ -1,0 +1,887 @@
+
+.budget-table thead tr {
+    padding: 0rem;
+}
+
+.budget-table th {
+    color: #393737;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    padding: 5px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.budget-table {
+    border: 1px solid #d0d4d9;
+}
+
+.budget-table td p {
+    height: 14px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: tahoma;
+    font-size: 13px;
+    margin-left: 4px;
+    color: #3b3a3a;
+    display: inline-block;
+}
+
+.budget-table td {
+    padding: 0;
+    margin: 0;
+    display: table-cell;
+    position: relative;
+    border: 1px solid #d7d7d7;
+    background: transparent !important;
+    transition: .6s;
+}
+
+.budget-table tr {
+    padding: 0;
+    margin: 0;
+    transition: .6s;
+}
+
+.parent-div,
+.child-div {
+    padding: 0;
+    position: relative;
+    height: auto;
+    margin-top: 7px;
+    overflow-y: hidden;
+}
+
+.parent-div {
+    position: relative;
+    float: left;
+    margin-left: 0;
+}
+
+.child-div {
+    display: grid;
+}
+
+.budget-table {
+    position: static;
+}
+
+.budget-table input {
+    border-style: solid;
+    margin: 7px;
+    padding: 4px;
+    background: white;
+    border-color: #eeeeee;
+    color: #292d32;
+}
+
+.inner {
+    float: left
+}
+
+.add_col {
+    float: right;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 8px;
+    margin-top: 6px;
+    margin-left: 10px;
+    top: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: #8CBA54;
+    color: white;
+}
+
+.new-col {
+    min-width: 164px !important;
+    padding: 1px 4px !important;
+    max-width: 164px !important;
+    width: 164px !important;
+}
+
+.new-col div {
+    display: block;
+    width: 210px;
+}
+
+.new-col span {
+    display: inline-block;
+    width: 48px;
+}
+
+.new-col input {
+    display: inline-block;
+    width: 83px;
+    margin: 5px !important;
+}
+
+.add-row-lb {
+    display: none;
+    width: 6rem;
+    margin-left: 10px;
+    padding: 3px 0 2px 6px;
+    color: #969696;
+    background: linear-gradient(to left,#fbdf67,#fbf2cd);
+    font-weight: bold;
+    font-size: 11px;
+    transition: 2s;
+}
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+}
+
+.add_row {
+    color: #969696;
+    background: linear-gradient(#fbdf67,#f8d541);
+    font-weight: bold;
+    font-size: 11px;
+    padding: 8px;
+    margin-top: 6px;
+    margin-left: 10px;
+    top: 0;
+    position: relative;
+    width: 2rem;
+    transition: 2s
+}
+
+.add_row:after {
+    content:'';
+    width: 12px;
+    height: 28px;
+    background: #f8f3ea;
+    display: block;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+
+.budget-table.child th {
+    height: 16px;
+    background: linear-gradient(#93acda,#61769c);
+    color: #f9f9f9;
+    font-size: 13px;
+    min-width: 144px;
+    display: table-cell;
+    text-align: center;
+    width: 168px;
+    min-width: 168px;
+    max-width: 168px;
+}
+
+td.new-col input {
+    text-align: right;
+}
+
+th.new-col input {
+    text-align: center;
+}
+
+.priority, .measure {
+    border: none;
+    resize: none;
+    margin: 5px;
+    width: 95%;
+    font-weight: normal;
+    font-size: 12px;
+    background: white;
+    font-family: verdana;
+}
+
+.parent ul {
+    padding-left: 23px;
+}
+
+ul.ellipse {
+    max-height: 6rem;
+    margin-top: 0;
+    padding-left: 0;
+    max-height: 95px;
+    overflow: hidden;
+    margin: 0;
+}
+
+div[contenteditable]{
+    overflow: auto;
+    max-height: 83px !important;
+    display: block;
+    height: 100%;
+    width: 87%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 1px 7px;
+    color: #8e8e8e;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 15px;
+}
+
+.priority-td {
+    min-width: 11rem;
+    max-width: 9rem;
+    padding: 0 !important;
+    
+}
+
+.budget-type {
+    display: block;
+    position: relative;
+    float: left;
+    border-style: initial;
+    background-image: linear-gradient(#ececec 6%, #ffffff 15%);
+    border: 1px solid #c3c3c3;
+    padding: 2px;
+    margin: 5px !important;
+}
+
+.budget-type::after {
+    font-family: 'fontawesome';
+    font-size: 13px;
+    display: block;
+    right: 12px;
+    position: absolute;
+    cursor: pointer;
+    content: '\f0d7';
+    color: #555;
+    top: 2px;
+}
+
+.budget-val .header {
+    border: none;
+    max-width: 62px;
+}
+
+.budget-val input {
+    border: none;
+    padding: 0px;
+}
+
+#main-table .budget-val td {
+    border: none;
+    font-size: 13px;
+    text-align: left;
+    color: #464545 !important;
+}
+
+#main-table td {
+    min-height: 45px;
+    text-align: center;
+    padding: 6px 10px;
+    max-height: 120px;
+    font-weight: normal;
+}
+
+#main-table .budget-val td {
+    height: 27px;
+    min-height: 27px;
+    margin: 0;
+    padding: 0;
+    color: #6B6C6D !important;
+}
+
+.ul-more {
+    text-decoration: none;
+    color: #346acb;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    color: #989797 !important;
+}
+
+div[contenteditable].active {
+    color: green;
+}
+
+tr.active {
+    background: #F2F4F6 !important;
+}
+
+tr.active td {
+    background: #fbfbfb !important;
+}
+
+.parent tr.active td textarea {
+    color: #007ce2;
+}
+
+#main-table .budget-val input {
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "calibri";
+    background: #f5f5f5;
+    padding: 2px 5px;
+    color: #6B6C6D !important;
+}
+
+#year-parent {
+    display: inline-block;
+    width: 7rem;
+    margin: 5px !important;
+    padding: 1px;
+    border: none;
+    border: 1px solid #d1d1d1;
+    font-size: 14px;
+}
+
+.add-item-alt {
+    font-weight: bold;
+    font-size: 11px;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 10px;
+    top: 0;
+    position: relative;
+    width: 7rem;
+    /*transition: 1s;*/
+    color: #ffffff;
+    height: 24px;
+    background: linear-gradient(#cbcec8,#7b7d79);
+    margin-bottom: 2rem;
+}
+
+.add-item-alt.prio {
+    position: static;
+    margin-left: 10px;
+    background: linear-gradient(#fda8b4,#d84077);
+    color: #f5f5f5;
+}
+
+.add-item-alt:hover {
+    opacity: .85
+}
+
+.add-item-alt.year {
+    background: linear-gradient(#b1e76f,#8CBA54)
+}
+
+.add-item-alt:after {
+    content:'';
+    width: 12px;
+    height: 24px;
+    background: #f8f3ea;
+    display: block;
+    position: relative;
+    right: -106px;
+    bottom: 18px;
+}
+
+.del-col {
+    font-size: 12px;
+    color: #f06969;
+    position: relative;
+    top: -2px;
+    right: -20px;
+}
+   
+.budget-table.child .budget-val td {
+    border: none;
+    color: #6B6C6D !important;
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    display: table-cell;
+}
+
+.budget-table.child td.new-col input {
+    font-size: 13px;
+    font-family: "calibri";
+    padding: 2px 6px;
+    border: 1px solid #f6f6f6;
+    text-align: right;
+    width: 108px;
+    margin: 3px !important;
+    background: #f2f4f6;
+}
+
+.budget-table.child td:not(.header) input:focus {
+    border: none;
+}
+
+#main-table tr {
+    cursor: pointer;
+}
+
+#main-table tr:hover,
+#main-table tr:hover td:not(.del-td):not(.table-menu) {
+    background: #f0f0f0 !important;
+}
+
+#main-table tr:hover td textarea {
+    /*! background: #F2F4F6; */
+}
+
+.comment-td {
+    width: 40px !important
+}
+
+td.comment-td img {
+    position: absolute;
+    left: 7px;
+    top: calc(33%);
+}
+
+.parent-div .budget-val {
+    margin: 8px 0px;
+}
+
+.parent-div .new-col input {
+    margin: 3px !important;
+}
+
+tr.active .priority-td [contenteditable]{
+    font-weight: bold;
+    color: #4098e8 !important;
+    font-size: 15px;
+}
+    
+.budget-table.child thead .fa {
+    margin-left: 6px;
+    color: #f9f9f9;
+}
+
+.budget-table .fa-commenting {
+    color: #808080;
+    left: 6px;
+    position: relative;
+    font-size: 18px;
+}
+
+.priority-td {
+    background: white
+}    
+
+.budget-table.parent .new-col,
+.budget-table.parent .measure-td {
+    background: #fbfbfb;
+}
+
+.budget-table.parent th.new-col input {
+    background: transparent !important;
+    border: none;
+    color: #21272b !important;
+    font-size: 15px;
+}
+
+.table-btn {
+    letter-spacing: 1px;
+    font-family: verdana;
+    display: block;
+    margin: 6px auto;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 6px;
+    width: 6rem;
+    color: white;
+    height: 38px;
+    margin-left: 6px;
+}
+
+.table-btn.measure-btn {
+    border: 1px solid #e8e6e6;
+    border-radius: 2px;
+    margin-top: 64px;
+    margin-bottom: 0;
+    padding: 6px;
+    width: 110px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 11px;
+    background: white;
+    border-color: #949494;
+    color: #007ce2;
+    border-radius: 0;
+    font-family: verdana;
+    display: none
+}
+
+.budget-table.parent tr:hover td .measure-btn {
+    display: inline-block !important
+}
+
+.btn-td {
+    border: none !important;
+    background: white !important;
+}
+
+th.btn-td {
+    background: white
+}
+
+#main-table {
+    border: none;
+    display: block;
+}
+
+#main-table th {
+    border: 1px solid #d7d7d7;
+    background: linear-gradient(#f3f3f3,#e0e0e0);
+    color: #393737;
+    font-size: 14px
+}
+
+.table-div {
+    margin-left: 174px;
+    max-width: 654px;
+    overflow: auto;
+    margin-right: 11rem !important;
+    overflow-y: hidden;
+}
+
+.headcol {
+    position: absolute !important;
+    width: 11rem !important;
+    left: 0;
+}
+
+td.headcol {
+    height: 45px;
+}
+
+.child .measure-td {
+    width: 11rem !important;
+    min-width: 11rem !important;
+    max-width: 11rem !important;
+}
+
+.fixed-right {
+    position: absolute !important;
+    width: 11rem !important;
+}
+
+.parent td.measure-td,
+.parent td.extra {
+    width: 168px !important;
+    min-width: 168px;
+    max-width: 168px;
+}
+
+.add-budget {
+    background: linear-gradient(#f7f7f7,#e2e2e2);
+    left: 6px;
+    position: relative;
+    border-color: #dad8d8;
+    font-size: 12px;
+    color: #7d7d7d;
+    margin-bottom: 7px;
+    font-family: verdana;
+    letter-spacing: 1px;
+}
+
+.child-div .budget-table td {
+    border: none;
+    height: 40px;
+    background: #FAFAFB !important;
+    border-bottom: 1px solid #D8DBDE;
+    text-align: center;
+}
+
+.child-div .budget-table td:not(.budget-tr) {
+    width: 168px;
+    min-width: 168px;
+    max-width: 168px;
+}
+
+
+.child-div .budget-val td {
+    border: none;
+    height: 24px;
+    background: #FAFAFB !important;
+    border-bottom: 1px solid #D8DBDE;
+    text-align: center;
+    margin: 0;
+    width: 90px !important;
+    min-width: 60px !important;
+    max-width: 82px !important;
+}
+    
+.measure-td div[contenteditable] {
+    background: white;
+    top: 2px;
+    left: 2px;
+    width: 98%;
+    height: 92%;
+}
+
+.budgets .chosen-container {
+    width: 143px!important;
+    margin: 0 0px;
+}
+
+.budgets .chosen-container a {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+    
+.budgets .chosen-container span {
+    margin-right: 0;
+}
+    
+.child-div .chosen-container a {
+    font-size: 12px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #929292 !important;
+    font-weight: normal;
+}
+   
+.child-div .budget-table td input {
+    border: none;
+    background: rgba(228, 225, 225, 0.95);
+    margin: 0;
+    text-align: center;
+    color: #6B6C6D !important;
+    font-size: 12px;
+    font-family: verdana;
+    width: 9rem;
+    padding: 0;
+}
+
+.budget-table.child tr:not(:last-child) td {
+    border-bottom: 1px inset #a6baca
+}
+
+.child-div .budget-table .budgets tr:not(:last-child) td {
+    border-bottom: 1px solid #D8DBDE !important;
+}
+
+.child-div .budget-table.child tr:last-child td {
+    border-bottom: none
+}
+
+.child-div .budget-val tr td {
+    border-bottom: none !important
+}
+
+.child-div .budget-table .budgets tr:last-child td {
+    border-bottom: none !important;
+}
+
+.program-td {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.edit-td .edit-btn {
+    color: #007ce2;
+    font-size: 13px;
+}
+    
+.child-div .budget-val td {
+    text-align: left;
+}
+
+.child-div th.new-col {
+    text-align: center;
+    min-width: 10rem;
+}
+
+.child-div th.add-budget {
+    min-width : 6rem;
+    left: 0
+}
+
+.program-td input {
+    background: none !important
+}
+
+.budget-table.child {
+    max-width: 828px;
+    overflow: auto;
+    display: block;
+    overflow-y: hidden;
+}
+
+ul.ellipse.dashed li {
+    font-size: 12px;
+    font-family: verdana;
+    color: #6B6C6D;
+    line-height: 1.5;
+}
+
+.budget-table.child {
+    border: none
+}
+
+.add-measure {
+    margin: 0 auto;
+    font-weight: bold;
+    color: #007ce2;
+    letter-spacing: 1px;
+    font-size: 11px;
+    background: white;
+    font-family: verdana;
+    padding: 4px 13px;
+}
+    
+.measure-td {
+    text-align: center
+}
+
+.load-measure {
+    text-align: center;
+    color: #a6aaad !important;
+    width: 6rem;
+    font-weight: normal !important;
+    line-height: 1.2;
+}
+    
+.priority-td textarea {
+    border: none;
+    resize: none;
+    width: 95%;
+    background: transparent;
+    letter-spacing: 1px;
+    margin: 0;
+    height: 95%;
+}
+    
+.priority:active,
+.priority:focus {
+    background: white !important
+}
+
+.child .add-budget-td,
+.parent .measure-td {
+    width: 152px !important;
+    min-width: 171px !important;
+    max-width: 168px !important;
+}
+
+.program-td {
+    width: 10rem !important;
+    min-width: 10rem !important;
+    max-width: 10rem !important;
+}
+
+.deleted {
+    display: none !important;
+}
+
+.del-td div {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    bottom: 7px;
+    position: absolute;
+    margin-left: 12px;
+    background: rgba(117, 132, 152, 0.32);
+}
+
+.del-td .fa-times {
+    content: "\f00d";
+    left: 1px;
+    position: relative;
+    font-size: 9px;
+    top: -7px;
+    color: white;
+}
+
+.budget-table .del-td {
+    border: none !important;
+    background: white !important;
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+}
+
+.parent .del-td div {
+    margin-left: -3px;
+    width: 23px;
+    height: 22px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-bottom: 15px;
+    bottom: 10px;
+}
+
+.parent .del-td div a {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px !important;
+    display: block;
+    width: 23px;
+    height: 22px;
+    margin-left: -1px;
+}
+
+.child-div table tr th.edit-td,
+.child-div table tr td.edit-td,
+.child-div table tr th.del-td,
+.child-div table tr td.del-td {
+    min-width: 40px !important;
+    max-width: 40px !important;
+    width: 40px !important; 
+}
+
+.child-div table tr td.del-td  {
+    background: white !important;
+}
+
+th.edit-td {
+    background: white !important
+}
+
+.table-menu div {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    box-sizing: inherit;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    min-width: 160px;
+    background-color: #FFF;
+    box-shadow: 0 0 0 1px rgba(99, 114, 130, 0.16), 0 8px 16px rgba(27, 39, 51, 0.08);
+    border-radius: 4px;
+    outline: none;
+    font-family: verdana;
+    left: -5px;
+    color: #6b6c6d;
+    padding: 13px 20px;
+}
+
+.table-menu div ul {
+    list-style-type: none;
+    text-align: left;
+    color: #222222;
+    padding: 0;
+    margin: 0;
+}
+
+.table-menu div ul li {
+    padding: 0;
+}
+    
+.table-menu div ul li a {
+    text-decoration: none;
+    color: #222222;
+    padding: 7px 49px 7px 10px;
+}
+
+.table-menu div ul li a:hover {
+    background-color: #F7F9FA;
+}
+
+.comment-td input {
+    text-align: center;
+    background: none;
+    border: none;
+    width: 90%;
+}

@@ -1,0 +1,99 @@
+
+.step-3 .sub-section:not(:first-child) {
+    margin-top: 2rem
+}
+
+.step-3 .group-area label {
+    width: 86px;
+    height: 40px;
+    padding: 8px 10px;
+    margin: 5px 8px;
+    /* border-radius: 33px */
+}
+
+.step-3 .title-icon{
+    color: #ccc;
+}
+
+.step-3 .group-area input[type="checkbox"]:not(:checked) + label:hover {
+    color: white;
+    background: #949DAD;
+}
+
+.step-3 .group-title {
+    color: #348AD2
+}
+
+.step-3 .ms-options-wrap > button {
+    width: 20rem;
+}
+
+.step-3 #filter_charts {
+    background: linear-gradient(#fda8b4,#d84077);
+    text-align: left;
+    font-size: 12px;
+    padding-left: 12px;
+    padding: 5px 15px 6px 15px;
+    letter-spacing: 1px;
+    border: solid 1px #ecefec;
+}
+
+.step-3 #reset_chart {
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: linear-gradient(#AFB1AF,#8F8F8F);
+    border: solid 1px #ececec;
+    margin-right: 8px;
+    text-align: left;
+    padding-left: 12px;
+    padding: 5px 15px 6px 15px;
+}
+
+.step-3 .no-data {
+    padding: 0;
+    margin: 3rem 1rem;
+    font-family: verdana;
+    font-size: 15px;
+    color: #646b71;
+    font-weight: bold;
+    border: 1px dotted #aaa;
+    padding: 2rem;
+    width: 45rem;
+    font-family: "open sans";
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #e6e6e6;
+    text-align: center;
+}
+
+.planned {
+    fill: #a6cde2;
+}
+
+.commit {
+    fill: #1f78b4;
+}
+
+.spent {
+    fill: #fc0;
+}   
+
+.planned:hover,
+.commit:hover,
+.spent:hover {
+    stroke: #000;
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}

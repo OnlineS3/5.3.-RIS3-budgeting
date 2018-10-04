@@ -1,0 +1,365 @@
+.show-area,
+.group-area {
+    display: block;
+    clear: both;
+    padding: 0;
+    margin: 8px 0;
+}
+
+.show-area label,
+.group-area label {
+    display: inline-block;
+    background: #ece9e9;
+    margin: 5px 8px 0 8px;
+    padding: 11px 14px;
+    color: #5c5b5b;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: verdana;
+}
+
+.group-area input[type="checkbox"]:not(:checked) + label:hover {
+    color: white;
+    background: #949DAD;
+}
+
+.group-area label:hover + img {
+    visibility: visible !important
+}
+
+.options .title-2 {
+    margin-left: 0;
+    margin-bottom: 12px;
+}
+
+.options .title-2 p {
+    padding-top: 0;
+}
+
+.options .title-2 .fa {
+    margin-left: 8px;
+}
+
+.options {
+    clear: both;
+    padding: 28px 24px 28px 37px;
+    border: 1px solid #bfbdbd;
+    border-color: #c9cacc;
+    width: 885px;
+}
+
+.group-area input[type="checkbox"]:checked + label {
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    color: white;
+    background: #949DAD;
+}
+
+.group-area input[type="checkbox"]:checked + label + .fa {
+    visibility: visible !important;
+    color: white;
+    display: inline;
+    left: -28px;
+}
+
+.show-area label {
+    background: #94f894;
+}
+
+.show-area label.inactive {
+    background: #e4f6e4;
+    color: #8d8d8d;
+}
+
+.group-area label.active {
+    background: #008aff;
+    color: #242424;
+}
+
+.filter-area {
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+.filter-area p {
+    position: relative;
+    text-align: left;
+    background-color: #fff;
+    margin-top: -1px;
+    outline: none;
+    white-space: nowrap;
+    display: block;
+    padding: 0;
+    margin-bottom: 1px;
+    font-family: verdana;
+    color: #5c5b5b;
+    font-size: 13px;
+}
+
+.filter-item {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.show-area label {
+    background: transparent;
+    padding: 0px 14px 0px 14px;
+}
+
+.group-area label {
+    padding: 11px 10px;
+    letter-spacing: 1px;
+    width: 134px;
+    text-align: center;
+    height: 46px;
+    margin: 5px 9px;
+    color: #3c4a56;
+    font-size: 12px;
+    border: 1px solid #d8d8d8;
+    background: #f3f3f3;
+}
+
+.group-title {
+    color: rgb(92, 90, 90);
+    font-weight: bold;
+    font-family: verdana;
+    margin: 0;
+    letter-spacing: 2px;
+    background: white;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 4rem;
+    font-family: "open sans";
+    letter-spacing: 1px;
+    color: #565252;
+    font-size: 13px;
+    cursor: default;
+}
+
+.group-hr {
+    width: 11rem;
+    margin-left: 0;
+    clear: both;
+    display: block;
+    border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    border-bottom: 1px dashed #8cba54;
+    margin-top: 0;
+    margin-bottom: 9px;
+    border-color: #999;
+    text-align: left
+}
+
+#group-icon {
+    right: 24px;
+    position: relative;
+    top: -9px;
+}
+
+.step-2.content {
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.results {
+    clear: both;
+    padding: 20px 10px  20px 0px;
+    position: relative;
+}
+
+.budget-table.summary td {
+    padding: 12px 10px;
+    color: #444141;
+    font-size: 13px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    width: 165px;
+    min-width: 165px;
+    max-width: 165px;
+}
+
+.budget-table.summary hr {
+    border: none;
+    border-bottom: 1px dotted lightgray    
+}
+
+th.group_col {
+    color: #e91157 !important;
+    font-size: 16px;
+}
+
+td.group_col {
+    color: #636262;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.title-icon {
+    color: #6b6c6d;
+    margin-right: 10px !important;
+    font-size: 14px;
+}
+
+#filter_results {
+    background: linear-gradient(#fda8b4,#d84077);
+}
+
+#search-icon,
+#reset-icon {
+    position: relative;
+    top: 1px;
+    color: #fff;
+    font-size: 13px;
+    right: -2px;
+}
+
+#reset-icon {
+    right: 28px;
+}
+    
+.budget-vals {
+    padding: 0 !important;
+}
+
+.budget-vals,
+.budget-vals table {
+    height: 100%;
+}
+
+.budget-vals table td {
+    width: 84px;
+    border: none;
+    text-align: right;
+}
+
+.budget-vals table td:not(:last-child) {
+    border-right: 1px dotted #d7d7d7;
+}
+
+.budget-headers th,
+.budget-headers td {
+    display: table-cell;
+    font-size: 12px !important;
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
+    padding: 12px 15px !important;
+    border: none !important;
+}
+
+td.year-header {
+    border-bottom: 1px dotted #CAC7C7 !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    padding: 0 0 8px 0 !important;
+}
+
+.ddl-menu-content .fa {
+    left: -10px;
+}
+
+.budget-table.summary .budget-vals td {
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.show-col-lb {
+    text-align: left;
+    float: right;
+    position: relative;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: tahoma;
+    right: 71px;
+    top: -5px;
+    border-bottom: 1px dashed #a0c1dc;
+    padding-bottom: 2px;
+    cursor: pointer;
+    color: #348ad2;
+}
+
+.show-col-lb span {
+    margin-bottom: -2px;
+    display: block;
+}
+    
+.show-col-lb .fa {
+    margin-left: 5px;
+}
+
+.show-area {
+    float: right;
+    margin: 0;
+    padding-bottom: 0;
+    right: 55px
+}
+
+.summary.budget-table {
+    display: block;
+    border: none;
+}
+
+.summary-div .headcol {
+    width: 181px !important;
+    min-width: 181px !important;
+    max-width: 181px !important;
+}
+
+.summary-div {
+    max-width: 884px;
+    overflow: auto;
+}
+
+.summary-div th.headcol {
+    top: 20px;
+    height: 109px;
+    padding-top: 37px;
+    font-size: 17px !important;
+}
+
+.summary.budget-table td.headcol:not(last-of-type) {
+    height: 50px;
+    display: table-cell;
+}
+
+.summary.budget-table th {
+    font-size: 14px;
+    border: 1px solid #d7d7d7;
+}
+
+.group-icon {
+    position: relative;
+    top: -12px;
+    left: -22px;
+    font-size: 11px;
+    color: #d1d1d1;
+    display: none;
+}
+
+.reset-icon {
+    position: relative;
+    left: 3px;
+    top: 2px;
+}
+
+#export-icon {
+    position: relative;
+    top: 0px;
+    color: #fff;
+    font-size: 13px;
+    right: -8px;
+}
+ 
+.no-results {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-family: verdana;
+    color: #333;
+    padding-left: 24rem;
+    margin-top: -1rem;
+}
+

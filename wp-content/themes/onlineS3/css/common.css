@@ -1,0 +1,72 @@
+
+/* 
+    Common classes for hide / show / alignment / void divs 
+*/
+
+.hide {
+    display: none !important
+}
+
+.show {
+    display: block !important
+}
+
+.show-cell {
+    display: table-cell
+}
+
+.inline-show {
+    display: inline-block
+}
+
+.text-left {
+    text-align: left !important
+}
+
+.text-center {
+    text-align: center !important
+}
+
+.text-right {
+    text-align: right !important
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.col.void-1 {
+    width: 12px;
+    display: inline-block
+}
+
+.col.void-2 {
+    width: 24px;
+    display: inline-block
+}
+
+.row.void-1 {
+    height: 12px;
+    display: block;
+    clear: both
+}
+
+.row.void-2 {
+    height: 24px;
+    display: block;
+    clear: both
+}
+
+.row.void-3 {
+    height: 36px;
+    display: block;
+    clear: both
+}
+
+.plain {
+    border: none !important
+}

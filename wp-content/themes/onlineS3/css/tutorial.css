@@ -1,0 +1,179 @@
+
+/* 
+    Popup stylesheet
+*/
+
+.popup {
+    padding: 0px 30px;
+}
+
+.popup-btn {
+    position: absolute;
+    display: block;
+    right: 10rem;
+}
+
+.popup:not(.report) table.tbl-dt {
+    max-width: 1000px;
+    max-height: 1000px;
+    overflow: auto;
+}
+
+.popup .tbl-dt tr {
+    max-width: none;
+}
+
+.popup .site-header-main {
+    display: none;
+}
+
+.swal2-modal .swal2-content {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    color: #242424;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    padding: 0 23px;
+    font-family: "open sans";
+    /*! font-weight: bold; */
+}
+
+.swal2-modal .btn.swal2-styled {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 5px 0;
+    padding: 10px 32px;
+}
+
+.popup-txt {
+    text-align: left;
+    color: #504e4e;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    float: left;
+    position: static;
+}
+
+.cancel-btn {
+    background: #f3f3f3;
+    color: #777;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+
+.accept-btn {
+    background: #f3f3f3;
+    color: #777;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: #f94444;
+    border: 1px solid #f0efef;
+
+}
+
+.highlight{
+    margin: 0;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 3px;
+    /*! border: 3px solid #f9ae65 !important; */
+    border: 3px solid rgb(233, 202, 83) !important;
+    border: 3px solid #f6f617 !important;
+    border: 3px solid rgb(247, 209, 63) !important;
+}
+
+.swal2-modal {
+	padding: 40px !important;
+	width: 34rem !important;
+}
+
+.swal2-confirm {
+	background: rgb(245, 194, 73);
+}
+
+.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep {
+    background: rgb(247, 209, 63);
+}
+
+.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep ~ .swal2-progresscircle {
+    background: rgb(210, 208, 205);
+    background: rgb(191, 189, 189);
+}
+
+.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep ~ .swal2-progressline {
+    background: rgb(191, 189, 189);
+}
+
+.swal2-progresssteps .swal2-progresscircle {
+	background: rgb(247, 209, 63);
+}
+
+.swal2-progresssteps .swal2-progressline {
+	background: rgb(247, 209, 63);
+}
+
+.swal2-modal .swal2-title {
+	font-size: 27px;
+	font-family: "open sans";
+	letter-spacing: 2px;
+}
+
+.swal2-modal .swal2-content {
+	margin: 1.5rem 0;
+}
+
+.hide-tutorial {
+    margin-top: 2rem;
+    margin-left: -19px;
+}
+
+.hide-tutorial label {
+    font-size: 16px;
+    color: #999;
+    font-style: italic;
+}
+
+.hide-tutorial label::before {
+    right: -24px !important;
+    left: auto !important;
+    top: 9px !important;
+}
+
+.hide-tutorial label::after {
+    right: -22px !important;
+    left: auto !important;
+    top: 10px !important;
+    font-size: 14px !important;
+}
+
+.swal2-modal .swal2-image {
+    display: block;
+    background: #242424;
+    width: 62px;
+    margin: 28px auto 14px auto;
+}
+
+.swal2-icon.swal2-warning {
+    color: #fc5050 !important;
+    border-color: #f96a6a !important;
+}

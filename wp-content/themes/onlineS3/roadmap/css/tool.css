@@ -1,0 +1,10 @@
+
+.tool-container {
+    width: 1080px;
+    height: 632px;
+    /*! border: 1px solid #ACACAC; */
+    border-radius: 8px;
+    margin: 35px auto;
+    background: #fcfcfc
+}
+

@@ -1,0 +1,140 @@
+/* 
+    Layout dimensions & basic style rules
+*/
+
+
+/* Style header */
+header#mainheader {
+    height: 106px;
+    display: block
+}
+
+.header-top {
+    height: 55px;
+    background-color: #0158a8;
+    display: block;
+    padding: 4px 30px 8px 30px;
+}
+
+.header-bottom:before {
+    content: '';
+    height: 7px;
+    background-color: #1364ae;
+    display: block
+}
+
+.header-bottom {
+    height: 51px;
+    background-color: #0a8ccd;
+    display: block;
+}
+
+.online-title {
+    color: #fff;
+    font-size: 22px;
+    padding: 0 0 0 9px;
+    position: relative;
+    display: inline-block;
+    bottom: 3px;
+}
+
+/* styles step header in bottom header section */
+.step-header {
+    color: #fff;
+    position: relative;
+    float: right;
+    right: 30px;
+    top: 9px;
+    font-size: 20px
+}
+
+/* style top-menu */
+nav#mainnav {
+    margin-top: 12px
+}
+
+nav#mainnav ul {
+    padding: 0;
+    float: right;
+    padding-right: 30px;
+    margin: 0;
+}
+
+nav#mainnav ul li {
+    display: inline;
+}
+
+nav#mainnav ul li {
+    display: inline;
+}
+
+nav#mainnav ul li:not(:last-child):after {
+    content: '|';
+    position: relative;
+    padding: 0 7px 0 14px
+}
+
+nav#mainnav ul li a {
+    color: #333;
+    text-decoration: none !important;
+    font-family: Verdana, Arial;
+    text-transform: uppercase;
+}
+
+/* application title */
+#appl-title {
+    margin-left: 30px
+}
+
+#contentmain {
+    width: 740px;
+    margin-left: 30px;
+    float: left;
+    position: relative;
+}
+
+/* places sidebar */
+#sidebar {
+    position: relative;
+    float: right;
+    width: 260px;
+    margin-top: 3rem;
+}
+
+/* style footer section */
+#mainfooter {
+    clear: both;
+}
+
+#mainfooter .footermain {
+    height: 245px;
+    position: relative;
+    background-color: #e8e8e8;
+    clear: both;
+    top: 6px
+}
+
+#mainfooter .social-share {
+    margin: 50px 30px 25px 30px;
+    display: relative;
+    float: left
+}
+
+#mainfooter p {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: #444;
+    letter-spacing: 2px
+}
+
+.site-inner {
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+}
+
+.content-area {
+    border: none
+}

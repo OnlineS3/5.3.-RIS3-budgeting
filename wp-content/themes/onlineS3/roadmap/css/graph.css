@@ -1,0 +1,483 @@
+
+.graph {
+    width: 836px;
+    height: 100%;
+    border-right: 4px double #898989;
+    position: relative;
+    float: left;
+    border: 1px solid #ACACAC;
+    border-top-left-radius: 8px;
+    border-right: 4px double #898989;
+    border-bottom-left-radius: 8px;
+}
+
+.large-circle {
+    width: 136px;
+    height: 136px;
+    border-radius: 140px;
+    border-width: 3px;
+    border: 3px solid grey;
+    position: relative;
+    cursor: pointer;
+}
+
+.small-circle {
+    width: 29px;
+    height: 29px;
+    border-radius: 28px;
+    position: absolute;
+    border: none !important;
+}
+
+.step-label {
+    color: #4e4949;
+    font-family: "open sans";
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: bold;
+    color: #868080;
+    letter-spacing: 1px;
+    color: #8c8c8c;
+}
+
+.tool-label {
+    font-family: "verdana";
+    font-size: 11px;
+    color: #959595;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 104px;
+    position: absolute;
+    color: #6c6c6c;
+    color: #636363;
+    cursor: pointer;
+    transition: .6s
+}
+
+.label-container {
+    position: absolute;
+}
+
+#mapping.large-circle {
+    border-color: #1F97E1;
+    background: #DAE9F3;
+    left: 81px;
+    top: 125px;
+}
+
+#mapping .step-label {
+    left: 17px;
+    top: 65px;
+}
+
+#mapping .small-circle {
+    background: #67BEF2;
+    border: 1px solid #41A9F6;
+}
+
+#mapping .small-circle.active {
+    background: #63A8D0
+}
+
+.label-container.mapping {
+    left: 81px;
+    top: 127px;
+}
+
+#identify_actors.large-circle {
+    border-color: #FCE048;
+    background: #FFF8D3;
+    left: 78px;
+    top: 209px;
+}
+
+#identify_actors .step-label {
+    left: 30px;
+    top: 42px;
+}
+
+#identify_actors .small-circle {
+    background: #FFE17B;
+    border: 1px solid #E4DA0D;
+}
+
+#identify_actors .small-circle.active {
+    background: #FFEC84
+}
+
+.label-container.identify_actors {
+    left: 78px;
+    top: 351px;
+}
+
+#engage.large-circle {
+    border-color: #F94855;
+    background: #FFEBEB;
+    left: 397px;
+    top: 170px;
+}
+
+#engage .step-label {
+    left: 16px;
+    top: 64px;
+}
+
+#engage .small-circle {
+    background: #FFA4A4;
+    border: 1px solid #F26B6B;
+}
+
+#engage .small-circle.active {
+    /*! background: #FFEC84 */
+}
+
+.label-container.engage {
+    left: 397px;
+    top: 445px;
+}
+
+#co_design.large-circle {
+    border-color: #9E76CA;
+    background: #F4EFF9;
+    right: 117px;
+    bottom: 122px;
+    float: right;
+}
+
+#co_design .step-label {
+    left: 9px;
+    top: 45px;
+}
+
+#co_design .small-circle {
+    background: #C4B1DB;
+}
+
+.label-container.co_design {
+    right: 252px;
+    top: 289px;
+}
+
+#monitor_assess.large-circle {
+    border-color: #7EBD5D;
+    background: #EDF3EA;
+    right: 245px;
+    top: -60px;
+    float: right;
+}
+
+#monitor_assess .step-label {
+    left: 22px;
+    top: 57px;
+}
+
+#monitor_assess .small-circle {
+    background: #ACE48C;
+}
+
+.label-container.monitor_assess {
+    right: 379px;
+    top: 76px;
+}
+
+.monitor_assess .small-circle.active {
+    background: #FFEC84
+}
+
+.large-circle.monitor_assess {
+    border-color: #7EBD5D;
+    background: #EDF3EA;
+    right: 245px;
+    float: right;
+    top: -60px;
+}
+
+.balanced_score.small-circle {
+    left: 21px;
+    top: 16px;
+}
+
+.satisfy_survey.small-circle {
+    left: 82px;
+    top: 19px;
+}
+
+
+.balanced_score.tool-label {
+    left: -77px;
+    top: 1px;
+}
+
+.satisfy_survey.tool-label {
+    left: 97px;
+    top: -10px;
+}
+
+
+
+.scientific_profile.small-circle {
+    left: 62px;
+    top: 9px;
+}
+
+.focus_group.small-circle {
+    left: 94px;
+    top: 48px;
+}
+
+.special_indexes.small-circle {
+    left: 78px;
+    top: 90px;
+}
+
+.related_analysis.small-circle {
+    left: 19px;
+    top: 23px;
+}
+
+
+.scientific_profile.tool-label {
+    left: 76px;
+    top: -34px;
+}
+
+.focus_group.tool-label {
+    left: 118px;
+    top: 47px;
+}
+
+.special_indexes.tool-label {
+    left: 108px;
+    top: 116px;
+}
+
+.related_analysis.tool-label {
+    left: -68px;
+    top: -14px;
+}
+
+
+.vision_sharing.small-circle {
+    left: 58px;
+    top: 9px;
+}
+
+.clusters.small-circle {
+    left: 86px;
+    top: 80px;
+}
+
+.infra_mapping.small-circle {
+    left: 31px;
+    top: 89px;
+}
+
+
+.vision_sharing.tool-label {
+    left: 21px;
+    top: -34px;
+}
+
+.clusters.tool-label {
+    left: 102px;
+    top: 104px;
+}
+
+.infra_mapping.tool-label {
+    left: -59px;
+    top: 120px;
+}
+
+
+.stakeholder.small-circle {
+    left: 32px;
+    top: 15px;
+}
+
+.debate_glance.small-circle {
+    left: 89px;
+    top: 31px;
+}
+
+.collabo_vision.small-circle {
+    left: 31px;
+    top: 89px;
+}
+
+
+.stakeholder.tool-label {
+    left: -59px;
+    top: -20px;
+}
+
+.debate_glance.tool-label {
+    left: 102px;
+    top: 6px;
+}
+
+.collabo_vision.tool-label {
+    left: -48px;
+    top: 130px;
+}
+
+
+.action_plan.small-circle {
+    left: 75px;
+    top: 14px;
+}
+
+.open_repo.small-circle {
+    left: 77px;
+    top: 87px;
+}
+
+.action_plan.tool-label {
+    left: 93px;
+    top: -12px;
+}
+
+.open_repo.tool-label {
+    left: 86px;
+    top: 125px;
+}
+
+.arrow {
+    position: absolute;
+    cursor: default
+}
+
+.arrow.mapping {
+    top: 247px;
+    left: 36px;
+}
+
+.arrow.identify_actors {
+    top: 467px;
+    left: 275px;
+    transform: rotate(270deg);
+    /*display: none;*/
+}
+
+.arrow.engage {
+    top: 447px;
+    left: 587px;
+    transform: rotate(232deg);
+}
+
+.arrow.co_design {
+    top: 148px;
+    left: 636px;
+    transform: rotate(154deg);
+}
+
+.enabled .large-circle:hover,
+.enabled .large-circle.active {
+    transform: scale(1.03);
+}
+
+.enabled .large-circle:hover .step-label,
+.enabled .large-circle.active .step-label {
+    color: white
+}
+
+.enabled #mapping:hover,
+.enabled #mapping.active {
+    background: #7AC2F0 !important;
+}
+
+.enabled #mapping:hover .small-circle,
+.enabled #mapping.active .small-circle {
+    background: #AADDF9;
+}
+
+.enabled #monitor_assess:hover .small-circle,
+.enabled #monitor_assess.active .small-circle {
+    background: #BFE7A7;
+}
+
+.enabled #co_design:hover .small-circle,
+.enabled #co_design.active .small-circle {
+    background: #D5CCE1;
+}
+
+.enabled .small-circle:hover,
+.enabled .small-circle.active {
+    border: 2px solid #fff !important;
+}
+
+.enabled #identify_actors:hover,
+.enabled #identify_actors.active {
+    background: #FCE048 !important;
+}
+
+.enabled #identify_actors:hover,
+.enabled #identify_actors.active {
+    background: #FBE46F !important;
+}
+
+.enabled #engage:hover,
+.enabled #engage.active {
+    background: #F26E78 !important;
+}
+
+.enabled #co_design:hover,
+.enabled #co_design.active {
+    background: #C0AAD7 !important;
+}
+
+.enabled #monitor_assess:hover,
+.enabled #monitor_assess.active {
+    background: #96D177 !important;
+}
+
+.enabled #identify_actors:hover .small-circle, 
+.enabled #identify_actors.active .small-circle {
+    background: #FFFCB6;
+}
+
+.tool-label.active {
+    font-weight: bold
+    
+}
+
+.enabled .mapping .tool-label:hover,
+.enabled .mapping .tool-label.active,
+.enabled .mapping .tool-label.hovered {
+    color: #039BF9;
+}
+
+.enabled .co_design .tool-label:hover,
+.enabled .co_design .tool-label.active,
+.enabled .co_design .tool-label.hovered {
+    color: #9E76CA;
+}
+
+.enabled .identify_actors .tool-label:hover,
+.enabled .identify_actors .tool-label.active,
+.enabled .identify_actors .tool-label.hovered {
+    color: #E7C821;
+}
+
+.enabled .engage .tool-label:hover,
+.enabled .engage .tool-label.active,
+.enabled .engage .tool-label.hovered {
+    color: #F94855;
+}
+
+.enabled .monitor_assess .tool-label:hover,
+.enabled .monitor_assess .tool-label.active,
+.enabled .monitor_assess .tool-label.hovered {
+    color: #7EBD5D;
+}
+
+.enabled .large-circle:hover,
+.enabled .large-circle.active {
+    transform: scale(1.03);
+}

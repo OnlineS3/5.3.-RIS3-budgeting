@@ -1,0 +1,35 @@
+
+.tip-body {
+    width: 400px !important;
+    left: 40px !important;
+    box-shadow: 4px 4px 4px #eaeaea !important;
+    float: right;
+    position: absolute;
+    text-align: center !important;
+    font-size: 14px;
+    z-index: 1000;
+    line-height: 2 !important;
+    top: -2rem !important;
+    padding: 19px !important;
+    color: black !important;
+    background: #424242 !important;
+    border-radius: 11px !important;
+}
+
+.tip-body.tooltiptext.arrow-left::after {
+    width: 0 !important;
+    height: 0;
+    border-top: 9px solid transparent !important;
+    border-bottom: 9px solid transparent !important;
+    border-right: 9px solid #131313 !important;
+    position: absolute;
+    content: '';
+    z-index: 200000;
+    left: -10px !important;
+    top: 30px !important;
+    opacity: .92;
+}
+
+.tooltip-container .fa {
+    cursor: pointer
+}

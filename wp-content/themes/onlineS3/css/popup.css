@@ -1,0 +1,27 @@
+
+/* 
+    Popup stylesheet
+*/
+
+.popup {
+    padding: 30px;
+}
+
+.popup-btn {
+    float: left;
+    margin: 0 20px 17px 10px
+}
+
+.popup:not(.report) table.tbl-dt {
+    max-width: none;
+    max-height: none;
+    overflow: hidden
+}
+
+.popup .tbl-dt tr {
+    max-width: none;
+}
+
+.popup .site-header-main {
+    display: none;
+}
